@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+/*PRIMER BLOQUE*/
+.header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #aaaaaa;
+}
+
+.natgeo-image {
+    width: 20%;
+    height: auto;
+    & img {
+        width: 155px;
+    }
+}
+
+.menu {
+    display: none;
+}
+
+/*SEGUNDO BLOQUE*/
+.text {
+    margin-top: 20px;
+    padding: 0 10px;
+    &__title {
+        font-family: 'Gill Sans', 'Century Gothic', sans-serif;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+    &__subtitle {
+        font-family: 'Gill Sans', 'Century Gothic', sans-serif;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+    & a {
+        font-family: 'Georgia', 'Palatino', serif;
+        text-decoration: underline solid #fecd2f;
+    }
+}
+
+/*TERCER BLOQUE*/
+.article {
+    margin-top: 20px;
+    padding: 0 10px;
+    &__image {
+        width: 100%;
+    }
+    & img {
+        width: 100%;
+    }
+    &__title {
+        font-family: 'Gill Sans', 'Century Gothic', sans-serif;
+    }
+    &__text {
+        font-family: 'Gill Sans', 'Century Gothic', sans-serif;
+        & p {
+            border-left: 1px solid #aaaaaa;
+            padding-left: 10px;
+        }
+    }
+    /*& a {
+        font-family: 'Georgia', 'Palatino', serif;
+        text-decoration: underline solid #fecd2f;
+    }*/
+}
+
+/*BOTON*/
+.container-button {
+    margin-top: 20px;
+    padding: 0 10px;
+    & button {
+        width: 100%;
+        height: 35px;
+        text-transform: uppercase;
+        background-color: #fecd2f;
+        border: 2px solid #333333;
+    }
+}
+
+/*CUARTO BLOQUE*/
+.video {
+    margin-top: 20px;
+    padding: 0 10px;
+    &__subtitle h3 {
+        font-family: 'Gill Sans', 'Century Gothic', sans-serif;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+    &__subtitle a {
+        font-family: 'Georgia', 'Palatino', serif;
+        text-decoration: underline solid #fecd2f;
+    }
+    &__image {
+        margin-top: 10px;
+        width: 100%;
+        & img {
+            width: 100%;
+        }
+    }
+}
+
+/*FOOTER*/
+.natgeomore {
+    margin-top: 20px;
+    padding: 0 10px;
+    background: #333333;
+    color: white;
+}
+
+.socialmedia {
+    padding: 20px 35px;
+    &__icons {
+        display: flex;
+        justify-content: space-around;
+        font-size: 28px;
+        padding: 0 80px;
+        & .fa-twitter {
+            color: #38a9ee;
+        }
+        & .fa-facebook-official {
+            color: #425499;
+        }
+        & .fa-instagram {
+            color: #577da5;
+        }
+    &__title {
+        font-family: 'Gill Sans', 'Century Gothic', sans-serif;
+    }
+
+    }
+}
